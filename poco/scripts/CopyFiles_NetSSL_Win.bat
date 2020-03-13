@@ -22,7 +22,6 @@ xcopy "poco-1.x\Foundation\include" "C:\local\libs\poco\include" /R /Y /I /E
 xcopy "poco-1.x\JSON\include" "C:\local\libs\poco\include" /R /Y /I /E
 xcopy "poco-1.x\MongoDB\include" "C:\local\libs\poco\include" /R /Y /I /E
 xcopy "poco-1.x\Net\include" "C:\local\libs\poco\include" /R /Y /I /E
-xcopy "poco-1.x\NetSSL_OpenSSL\include" "C:\local\libs\poco\include" /R /Y /I /E
 xcopy "poco-1.x\NetSSL_Win\include" "C:\local\libs\poco\include" /R /Y /I /E
 xcopy "poco-1.x\PDF\include" "C:\local\libs\poco\include" /R /Y /I /E
 xcopy "poco-1.x\Redis\include" "C:\local\libs\poco\include" /R /Y /I /E
