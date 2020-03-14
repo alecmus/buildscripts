@@ -1,5 +1,5 @@
 # buildscripts
-Scripts for automating the build process for some libraries that are crucial to desktop development in C++ on Windows
+Scripts for automating or simplifying the build process for some libraries that are crucial to desktop development in C++ on Windows
 
 Scripts for the following are available:
 
