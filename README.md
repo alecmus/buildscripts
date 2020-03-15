@@ -11,3 +11,5 @@ poco           | [Buildx64.bat](https://github.com/alecmus/buildscripts/blob/mas
 zlib           | [Build.bat](https://github.com/alecmus/buildscripts/blob/master/zlib/scripts/Build.bat)  | Script for automating x86 and x64 builds, naming the builds differently
 libpng         | [Build.bat](https://github.com/alecmus/buildscripts/blob/master/libpng/scripts/Build.bat)  | Script for automating x86 and x64 builds, linking the builds to differently named zlib binaries
 libharu         | None  | Step by step [instructions](https://github.com/alecmus/buildscripts/blob/master/libharu/README.md) on how to prepare a vs2019 solution that builds to differently named libharu binaries and that link to differently named zlib binaries
+libexpat         | None  | Step by step [instructions](https://github.com/alecmus/buildscripts/blob/master/libexpat/README.md) on how to prepare a vs2019 solution that builds to differently named libexpat binaries
+crypto++         | None  | Step by step [instructions](https://github.com/alecmus/buildscripts/blob/master/cryptopp/README.md) on how to modify the provided vs2019 solution so it can build to differently named crypto++ binaries
