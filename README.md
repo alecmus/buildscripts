@@ -1,6 +1,10 @@
 # buildscripts
 Scripts for automating or simplifying the build process for some libraries that are crucial to desktop development in C++ on Windows
 
+<p>
+  <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/alecmus/buildscripts">
+</p>
+
 Scripts for the following are available:
 
 Item           | Script      | Description
