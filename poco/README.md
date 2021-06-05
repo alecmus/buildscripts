@@ -16,7 +16,8 @@ Build 32 and 64 bit binaries for Poco on Windows that link to differently named 
     1. Build for 64-bit by running [Buildx64.bat](https://github.com/alecmus/buildscripts/blob/master/poco/scripts/Buildx64.bat)
     2. Build for 32-bit by running [Buildx86.bat](https://github.com/alecmus/buildscripts/blob/master/poco/scripts/Buildx86.bat)
     3. Copy files by running [CopyFiles_NetSSL.bat](https://github.com/alecmus/buildscripts/blob/master/poco/scripts/CopyFiles_NetSSL.bat) (files will be placed in C:\local\libs\poco)
-For static build use [Buildx64_static.bat](https://github.com/alecmus/buildscripts/blob/master/poco/scripts/Buildx64_static.bat) and [Buildx86_static.bat](https://github.com/alecmus/buildscripts/blob/master/poco/scripts/Buildx86_static.bat)
+
+For static build use [Buildx64_static.bat](https://github.com/alecmus/buildscripts/blob/master/poco/scripts/Buildx64_static.bat) and [Buildx86_static.bat](https://github.com/alecmus/buildscripts/blob/master/poco/scripts/Buildx86_static.bat) (the only difference is the use of <em>build static_md</em> in place of <em>build shared</em>).
 
 NB: The files in \include\poco\Net\ are different for PocoNetSSLWin and PocoNetSSL.
 Use [CopyFiles_NetSSL_Win.bat](https://github.com/alecmus/buildscripts/blob/master/poco/scripts/CopyFiles_NetSSL_Win.bat) instead if you prefer to use PocoNetSSLWin.dll instead of PocoNetSSL.dll
